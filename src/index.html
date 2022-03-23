@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pure CSS Slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class="slider">
+        <input type="radio" name="bullet" id="bullet-1" value="1" checked />
+        <input type="radio" name="bullet" id="bullet-2" value="2" />
+        <input type="radio" name="bullet" id="bullet-3" value="3" />
+        <input type="radio" name="bullet" id="bullet-4" value="4" />
+        <div class="slides__holder">
+            <div class="slides__viewport">
+                <figure class="slide">
+                    <img src="img/slide_1.jpg" alt="" />
+                </figure>
+                <figure class="slide">
+                    <img src="img/slide_2.jpg" alt="" />
+                </figure>
+                <figure class="slide">
+                    <img src="img/slide_3.jpg" alt="" />
+                </figure>
+                <figure class="slide">
+                    <img src="img/slide_4.jpg" alt="" />
+                </figure>
+            </div>
+        </div>
+        <div class="title__holder">
+            <p>When I’m searching for a meaningful variable name</p>
+            <p>You don't have to have descriptive variable names if you don't make them public</p>
+            <p>Me: declares variable but doesn't use it<br>My IDE: How dare you?!</p>
+            <p>Me explaining my variable naming scheme to the other devs</p>
+        </div>
+        <div class="controls">
+            <label for="bullet-1"><span></span></label>
+            <label for="bullet-2"><span></span></label>
+            <label for="bullet-3"><span></span></label>
+            <label for="bullet-4"><span></span></label>
+        </div>
+    </section>
+</body>
+
+</html>
